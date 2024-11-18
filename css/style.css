@@ -1,0 +1,105 @@
+/*Impotación de fuentes para el uso en el documento*/
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Roboto&display=swap");
+/*Estilos globales*/
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Define el margen y la fuente de una lista ordenada*/
+ol {
+  margin-left: 16px;
+  font-weight: bold;
+}
+/*Establece estilos en el encabezado , color, diseño flexbox, alineaciones, espacios*/
+header {
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+
+  /* justify-content genera espacio al medio */
+  justify-content: space-between;
+  padding: 10px;
+}
+/*Estilos a enlaces*/
+a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+/*Estilos al menú de navegación, viñetas, elementos en fila, espacios entre cada elemento*/
+header nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 13px;
+}
+/*Estilos  a las cajas*/
+.box1 {
+  background-image: url(../img/delivery.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+}
+/*Estilos al los textos, color y tamaño*/
+.texto {
+  color: #fc200c;
+  font-size: 24px;
+}
+
+span {
+  color: #f3f3f3;
+  font-size: 24px;
+}
+/*Estilos a las secciones*/
+section {
+  column-gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 16px;
+}
+
+.box2 {
+  height: 480px;
+  background-color: #ffffff;
+  flex: 1;
+}
+/*Estilos a los titulos*/
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #fc200c;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+/*Estilo al elemento izquierdo del box2*/
+.izquierdo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*Define estilos para el pie de la página com la disposición flexbox y a enlaces*/
+footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 42px 13px 14px;
+}
+
+footer a {
+  display: block;
+  padding: 6px;
+}
+
+footer ul {
+  list-style: none;
+}
